@@ -1,0 +1,45 @@
+BLAZE METER:   
+
+BlazeMeter is a cloud-based load testing platform that allows businesses to test the performance of their applications, websites, APIs, and other software systems.The platform can be integrated with various development and testing tools such as Jenkins, JIRA, Selenium, and more.
+
+IMPORTANCE OF THREAD GROUP:   
+
+What is thread Group ?
+
+Number of Threads:  This defines the number of virtual users or threads that will be created to simulate traffic. Each thread represents a unique user session .  
+
+Ramp-up period: This specifies the time period in seconds For example, if the number of threads is set to 100 and the ramp-up period is set to 10 seconds, then JMeter will create 10 virtual users or threads every second until it reaches a total of 100.
+
+Loop count: This defines the number of times the test plan will be executed by each virtual user or thread.
+
+Introduction to Listenres ? 
+
+--> Aggregate Results.  
+--> Graph Results.      (Results wil be view the Graphical represntation point of view ) . 
+--> view Results Tree.  ( Check Results tree how many times to run the Multiple users ) . 
+
+UNDERSTAND THE LOAD PARAMETERS TO ANALYZE THE RESULT:   
+
+SAMPLE:  This indicates Number of users to hit the specefic request.  
+
+AVERAGE: It is the average Time taken by all the samples to execute the specific label.  
+
+MIN :  The shortest time taken by all the samples to execute specefic label.  
+
+MAX : The longest time taken by all the samples to execute specific label. 
+
+ERROR %:  Percentage of failed request for label.  
+
+THROUGH PUT: Through Put is Number of request that are proseceed for time unit. (Minutes, Seconds, Hours) by the server. This time is Calculated by start first Sample to end of last Sample.   
+
+95%, 90% and 99%LINE :   This feature to represent compare the Sample no more than time taken to milliseconds. 
+
+
+For example, suppose the 90% line for a particular HTTP request in JMeter is 500 milliseconds. This means that 90% of the requests for that HTTP request were completed in 500 milliseconds or less, while the remaining 10% of requests took longer than 500 milliseconds to complete.
+
+
+
+
+
+
+
